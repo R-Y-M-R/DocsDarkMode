@@ -16,4 +16,4 @@ I hated the gray and just wanted to darken it up, so here we are. Thanks for you
 
 If you would like to generously donate, please send it to my bitcoin address.
 
-[bc1qpzhx9lve4luqmu0gdnzdy94t2mxwx86j76dfa3](bitcoin:bc1qpzhx9lve4luqmu0gdnzdy94t2mxwx86j76dfa3)
+bc1qpzhx9lve4luqmu0gdnzdy94t2mxwx86j76dfa3
