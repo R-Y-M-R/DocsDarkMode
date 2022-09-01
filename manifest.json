@@ -1,39 +1,27 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
-    "name": "Google Docs Dark Mode",
-    "version": "1.3.1",
-    "description": "Dark mode for Google Docs!",
-    "manifest_version": 3,
-    "content_scripts": [
-        {
-            "matches": [
-                "https://docs.google.com/document/*"
-            ],
-            "js": [
-                "content.js"
-            ]
-        }
-    ],
-    "icons": {
-        "128": "icon_128.png"
-    },
-    "action": {
-        "default_icon": "icon.png",
-        "default_popup": "popup.html"
-    },
-    "permissions": [
-        "storage"
-    ],
-    "web_accessible_resources": [
-        {
-            "resources": [
-                "css/dark_mode_docs.css"
-            ],
-            "matches": [
-                "https://docs.google.com/*",
-				"https://sheets.google.com/*"
-            ]
-        }
-    ]
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "name": "Google Docs Dark Mode (Darker)",
+  "version": "1",
+  "description": "Google docs for someone who can't stand the light.",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/document/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "128.png"
+  },
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "web_accessible_resources": [
+    {
+      "resources": ["css/dark_mode_docs.css"],
+      "matches": ["https://docs.google.com/*"]
+    }
+  ]
 }
