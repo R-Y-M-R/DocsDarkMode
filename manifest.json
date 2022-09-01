@@ -31,7 +31,8 @@
                 "css/dark_mode_docs.css"
             ],
             "matches": [
-                "https://docs.google.com/*"
+                "https://docs.google.com/*",
+				"https://sheets.google.com/*"
             ]
         }
     ]
